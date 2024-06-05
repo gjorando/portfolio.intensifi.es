@@ -360,7 +360,7 @@ form>*
     color: #161413;
     background: #FBF9FF;
     border: none;
-    border-radius: none;
+    border-radius: 0;
     padding: 0.5em;
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.9em;

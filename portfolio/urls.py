@@ -18,7 +18,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    path(r'^', include('portfolio_main.urls')),
+    path("", include('portfolio_main.urls')),
 ]
 
 if settings.DEBUG:
