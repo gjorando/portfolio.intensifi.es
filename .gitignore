@@ -16,4 +16,5 @@ build/
 tests/report/
 settings.py
 app_settings.py
+/static/
 .venv
