@@ -26,3 +26,5 @@ RUN pip install -r /app/requirements.txt
 
 COPY . /app/
 
+RUN ./manage.py makemessages -a
+RUN ./manage.py compilemessages
