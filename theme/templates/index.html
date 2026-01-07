@@ -18,7 +18,7 @@
         <nav><ul>
         {% for section in nav_items %}
             {% if section.metadata.nav %}
-                <li><a href="#{{ section.slug|replace("landing-section-hidden-", "") }}">{{ section.metadata.nav }}</a></li>
+                <li class="landing-anchor-link"><a href="#{{ section.slug|replace("landing-section-hidden-", "") }}">{{ section.metadata.nav }}</a></li>
             {% endif %}
         {% endfor %}
         {% for title, link in MENUITEMS %}

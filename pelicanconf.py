@@ -15,6 +15,9 @@ THEME = "./theme"
 STYLESHEET_URL = SITEURL + "/theme/css/style.css"
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+# MENUITEMS = [
+#     ("FOO", "https://perdu.com")
+# ]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
