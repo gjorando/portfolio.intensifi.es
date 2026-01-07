@@ -1,0 +1,9 @@
+{# SOCIAL ICONS #}
+
+{% if SOCIAL %}
+    <ul class="social-icons">
+        {% for social, link in SOCIAL %}
+            <li><a href="{{ link }}" title="{{ social }}" style="mask: url('{{ SITEURL }}/theme/images/{{ social|lower }}-icon.svg') no-repeat center/contain"></a></li>
+        {% endfor %}
+    </ul>
+{% endif %}

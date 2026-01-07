@@ -1,0 +1,30 @@
+{% extends "!simple/base.html" %}
+
+{% block head %}
+    {# We extend from simple by adding a reset css stylesheet #}
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/normalize.css" />
+    {{ super() }}
+{% endblock %}
+
+{# We redefine the whole body to put the navbar on top. #}
+{% block body %}
+    {% block nav %}
+        {{ super() }}
+    {% endblock nav %}
+    <header>
+        {% block header %}
+            {{ super() }}
+        {% endblock header %}
+    </header>
+    <main>
+        {% block content %}
+        {% endblock content %}
+    </main>
+    <footer>
+        {% block footer %}
+            <p>Le thème de ce site est transféré dans le domaine public selon les termes de la <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr" title="CC0">licence CC0</a>.</p>
+            <p>La police de caractères <a href="http://mplus-fonts.osdn.jp/">M<span style="vertical-align: super; font-size: 0.8em; line-height: 0;">+</span> P Type-1</a> est mise à disposition selon les dispositions de la licence <a href="{{ SITEURL }}/theme/fonts/MPLUS1p/OFL.txt">OFL</a>.</p>
+            {% include "snippets/social.html" %}
+        {% endblock footer %}
+    </footer>
+{% endblock body %}
