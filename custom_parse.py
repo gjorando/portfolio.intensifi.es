@@ -68,8 +68,11 @@ class ProjectDirective(Directive):
             project_anchor = anchor,
             project_content = publish_parts(
                 source="\n".join(self.content),
-                writer_name='html',
-            )['fragment'],
+                writer_name="html",
+                settings_overrides={
+                    "initial_header_level": 3
+                }
+            )["fragment"],
             **jinja_settings
         ), format="html")]
 
