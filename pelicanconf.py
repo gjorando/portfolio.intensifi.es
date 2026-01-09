@@ -7,12 +7,16 @@ SITEURL = ""
 
 PATH = "./content"
 
+STATIC_PATHS = [
+    "css"
+]
+
 TIMEZONE = "America/Montreal"
 
 DEFAULT_LANG = "fr"
 
 THEME = "./theme"
-STYLESHEET_URL = SITEURL + "/theme/css/style.css"
+STYLESHEET_URL = "./css/custom.css"
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 # MENUITEMS = [
