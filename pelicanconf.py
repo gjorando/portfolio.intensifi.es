@@ -7,18 +7,18 @@ SITEURL = ""
 
 PATH = "./content"
 
-STATIC_PATHS = [
-    "css"
-]
+# STATIC_PATHS = [
+#     "css"
+# ]
 
 TIMEZONE = "America/Montreal"
 
 DEFAULT_LANG = "fr"
 
 THEME = "./theme"
-STYLESHEET_URL = "./css/custom.css"
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_SOCIALS_IN_FOOTER = Truegi
 # MENUITEMS = [
 #     ("FOO", "https://perdu.com")
 # ]
@@ -44,9 +44,7 @@ SOCIAL = (
     ("GitHub", "https://github.com/gjorando"),
 )
 
-DEFAULT_PAGINATION = False
-
-DEFAULT_LANG = "fr"
+DEFAULT_PAGINATION = 10
 
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.do"]
