@@ -18,7 +18,7 @@ DEFAULT_LANG = "fr"
 THEME = "./theme"
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_SOCIALS_IN_FOOTER = Truegi
+DISPLAY_SOCIALS_IN_FOOTER = True
 # MENUITEMS = [
 #     ("FOO", "https://perdu.com")
 # ]
