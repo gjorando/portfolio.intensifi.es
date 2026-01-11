@@ -4,11 +4,10 @@ Guillaume Jorandon
 :status: hidden
 
 :slug: landing-section-hidden-head
-:lang: fr
+:lang: en
 
 .. image:: {static}/images/profile.jpg
     :alt: Photo de profil
     :class: profile-picture
 
-
-Queer français, navigue à voile et à vapeur. Scientifique des données, doctorant en communication publique pour la santé à l'**Université Laval** (Québec).
+French AC/DC queer. Data scientist, PhD student in health communication at **Université Laval** (Québec).

@@ -12,10 +12,13 @@ PATH = "./content"
 # ]
 
 TIMEZONE = "America/Montreal"
-
 DEFAULT_LANG = "fr"
+I18N_TEMPLATES_LANG = "fr"
+I18N_SUBSITES = {
+    "en": dict()
+}
 
-THEME = "./theme"
+THEME = "theme"
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_SOCIALS_IN_FOOTER = True
@@ -31,12 +34,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+# LINKS = (
+#     ("Pelican", "https://getpelican.com/"),
+#     ("Python.org", "https://www.python.org/"),
+#     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
+#     ("You can modify those links in your config file", "#"),
+# )
 
 # Social widget
 SOCIAL = (
@@ -47,7 +50,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 JINJA_ENVIRONMENT = {
-    "extensions": ["jinja2.ext.do"]
+    "extensions": ["jinja2.ext.do", "jinja2.ext.i18n"]
 }
 
 # Uncomment following line if you want document-relative URLs when developing

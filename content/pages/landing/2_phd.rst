@@ -4,6 +4,7 @@ Doctorat
 :status: hidden
 :slug: landing-section-hidden-phd
 :nav: Doctorat
+:lang: fr
 
 Mon projet de recherche porte sur l'information problématique sur les médias sociaux en temps de pandémie. Je cherche à étudier le système communicationnel d'espaces sociaux en ligne dans lesquels s'échange et se débat de l'information alternative et complotiste en santé publique.
 

@@ -4,6 +4,7 @@ Qui suis-je?
 :status: hidden
 :slug: landing-section-hidden-about
 :nav: À propos
+:lang: fr
 
 .. projects::
 
