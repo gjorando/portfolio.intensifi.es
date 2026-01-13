@@ -1,57 +1,61 @@
 import custom_parse
 
+
+## GENERAL SETTINGS ##
+
 AUTHOR = "Guillaume Jorandon"
 SITENAME = "Guillaume Jorandon"
 # SITESUBTITLE = ""
 SITEURL = ""
 
-PATH = "./content"
+# Jinja2 extensions
+JINJA_ENVIRONMENT = {
+    "extensions": ["jinja2.ext.do", "jinja2.ext.i18n"]
+}
 
-# STATIC_PATHS = [
-#     "css"
-# ]
+## URLs ##
 
-TIMEZONE = "America/Montreal"
-DEFAULT_LANG = "fr"
+# Uncomment following line if you want document-relative URLs when developing
+RELATIVE_URLS = True
+
+## I18N/L10N SETTINGS ##
+
+TIMEZONE = 'America/Montreal'
 I18N_TEMPLATES_LANG = "fr"
+DEFAULT_LANG = "fr"
 I18N_SUBSITES = {
     "en": dict()
 }
+LOCALE = "fr_CA"
 
-THEME = "theme"
-DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_SOCIALS_IN_FOOTER = True
-# MENUITEMS = [
-#     ("FOO", "https://perdu.com")
-# ]
+## FEED GENERATION ##
 
-# Feed generation is usually not desired when developing
+# Disabled for development
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-# LINKS = (
-#     ("Pelican", "https://getpelican.com/"),
-#     ("Python.org", "https://www.python.org/"),
-#     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-#     ("You can modify those links in your config file", "#"),
-# )
+## CONTENT ##
 
-# Social widget
+# Source files
+PATH = "content"
+
+DEFAULT_PAGINATION = 10
+
+# Lander page only
+DIRECT_TEMPLATES = []
+
+# Social links
 SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/guillaume-jorandon-b088a5116/"),
     ("GitHub", "https://github.com/gjorando"),
 )
 
-DEFAULT_PAGINATION = 10
+## THEME ##
 
-JINJA_ENVIRONMENT = {
-    "extensions": ["jinja2.ext.do", "jinja2.ext.i18n"]
-}
-
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+THEME = "theme"
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+LANDER_DISPLAY_SOCIALS_IN_FOOTER = True
