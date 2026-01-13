@@ -1,5 +1,5 @@
-Renn Kane
-#########
+Guillaume Jorandon
+##################
 
 :status: hidden
 :slug: lander-page
