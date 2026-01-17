@@ -6,6 +6,10 @@ Who am I?
 :nav: About
 :lang: en
 
+.. raw:: html
+
+    <div class="float-wrapper">
+
 .. projects::
 
     .. project::
@@ -45,3 +49,7 @@ Who am I?
 *Bienvenue chez moi!* My name is Guillaume, I am a **data science engineer** who graduated from :abbr:`UTC (Université de Technologie de Compiègne)`, France. I studied math and :abbr:`advanced data analysis (data mining, data engineering, machine learning, deep learning, operations research and optimization)`. I also received an education on **cognitive science** and philosophy of technics, in the context of the `PHITECO <https://sites.google.com/site/mineurphiteco/>`__ minor.
 
 As of today, I am a PhD student in communication science and data science at Laval University, Québec, where I work on public health matters.
+
+.. raw:: html
+
+    </div>

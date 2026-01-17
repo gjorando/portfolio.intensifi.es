@@ -1,6 +1,5 @@
 import custom_parse
 
-
 ## GENERAL SETTINGS ##
 
 AUTHOR = "Guillaume Jorandon"
@@ -12,6 +11,13 @@ SITEURL = ""
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.do", "jinja2.ext.i18n"]
 }
+
+# Docutils configuration
+DOCUTILS_SETTINGS = {
+    "initial_header_level": 3
+}
+
+PLUGINS = ["i18n_subsites"]
 
 ## URLs ##
 

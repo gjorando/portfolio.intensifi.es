@@ -6,6 +6,10 @@ Qui suis-je?
 :nav: À propos
 :lang: fr
 
+.. raw:: html
+
+    <div class="float-wrapper">
+
 .. projects::
 
     .. project::
@@ -45,3 +49,7 @@ Qui suis-je?
 Bienvenue chez moi! Je m'appelle Guillaume, et je suis **ingénieur en science des données** diplômé de l':abbr:`UTC (Université de Technologie de Compiègne)`, en France. J'y ai étudié les mathématiques et l':abbr:`analyse de données avancée (fouille de données, entrepôts de données, apprentissage machine, apprentissage profond, recherche opérationnelle et optimisation)`. Dans le cadre du mineur `PHITECO <https://sites.google.com/site/mineurphiteco/>`__, j'ai eu une formation cohérente en **sciences cognitives** et philosophie des techniques.
 
 Je suis présentement en doctorat sur mesure en communication publique et sciences des données à l'Université Laval à Québec, où je travaille sur des questions de santé publique.
+
+.. raw:: html
+
+    </div>
