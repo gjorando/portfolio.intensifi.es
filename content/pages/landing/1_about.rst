@@ -6,10 +6,6 @@ Qui suis-je?
 :nav: À propos
 :lang: fr
 
-.. raw:: html
-
-    <div class="float-wrapper">
-
 .. projects::
 
     .. project::
@@ -26,8 +22,9 @@ Qui suis-je?
 
         Une implémentation PyTorch de deux publications de transfert de style : un algorithme neuronal capable d'appliquer à une photographie le style artistique d'une peinture.
 
+
         Sources
-        """""""
+        #######
 
         * L\. A. Gatys, A. S. Ecker and M. Bethge, "Image Style Transfer Using Convolutional Neural Networks," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, 2016, pp. 2414-2423, doi: `10.1109/CVPR.2016.265 <https://doi.org/10.1109/CVPR.2016.265>`__.
         * L\. A. Gatys, A. S. Ecker, M. Bethge, A. Hertzmann and E. Shechtman, "Controlling Perceptual Factors in Neural Style Transfer," 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, HI, 2017, pp. 3730-3738, doi: `10.1109/CVPR.2017.397 <https://doi.org/10.1109/CVPR.2017.397>`__.
@@ -46,10 +43,6 @@ Qui suis-je?
 
         Une reconstruction fidèle du générique de fin de Portal 2, réalisée il y a bien trop longtemps en JavaScript.
 
-Bienvenue chez moi! Je m'appelle Guillaume, et je suis **ingénieur en science des données** diplômé de l':abbr:`UTC (Université de Technologie de Compiègne)`, en France. J'y ai étudié les mathématiques et l':abbr:`analyse de données avancée (fouille de données, entrepôts de données, apprentissage machine, apprentissage profond, recherche opérationnelle et optimisation)`. Dans le cadre du mineur `PHITECO <https://sites.google.com/site/mineurphiteco/>`__, j'ai eu une formation cohérente en **sciences cognitives** et philosophie des techniques.
+    Bienvenue chez moi! Je m'appelle Guillaume, et je suis **ingénieur en science des données** diplômé de l':abbr:`UTC (Université de Technologie de Compiègne)`, en France. J'y ai étudié les mathématiques et l':abbr:`analyse de données avancée (fouille de données, entrepôts de données, apprentissage machine, apprentissage profond, recherche opérationnelle et optimisation)`. Dans le cadre du mineur `PHITECO <https://sites.google.com/site/mineurphiteco/>`__, j'ai eu une formation cohérente en **sciences cognitives** et philosophie des techniques.
 
-Je suis présentement en doctorat sur mesure en communication publique et sciences des données à l'Université Laval à Québec, où je travaille sur des questions de santé publique.
-
-.. raw:: html
-
-    </div>
+    Je suis présentement en doctorat sur mesure en communication publique et sciences des données à l'Université Laval à Québec, où je travaille sur des questions de santé publique.

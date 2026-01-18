@@ -6,7 +6,7 @@ Guillaume Jorandon
 :slug: landing-section-hidden-head
 :lang: en
 
-.. image:: {static}/images/profile.jpg
+.. figure:: {static}/images/profile.jpg
     :alt: Photo de profil
     :class: profile-picture
 
