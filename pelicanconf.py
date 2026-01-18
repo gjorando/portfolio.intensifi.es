@@ -15,7 +15,7 @@ DOCUTILS_SETTINGS = {
     "initial_header_level": 3
 }
 
-PLUGIN_PATHS = ["pelican-renn-plugin/pelican/plugins/"]
+PLUGIN_PATHS = ["plugin/pelican/plugins/"]
 PLUGINS = ["pelican_renn_plugin", "i18n_subsites"]
 
 ## URLs ##
