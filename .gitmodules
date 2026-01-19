@@ -1,6 +1,6 @@
 [submodule "theme"]
 	path = theme
 	url = https://github.com/gjorando/pelican-renn
-[submodule "pelican-renn-plugin"]
+[submodule "plugin"]
 	path = plugin
-	url = git@github.com:gjorando/pelican-renn-plugin.git
+	url = https://github.com/gjorando/pelican-renn-plugin
