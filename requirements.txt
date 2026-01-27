@@ -3,3 +3,5 @@ invoke >= 2.2
 docutils
 jinja2
 pelican-i18n-subsites
+pytailwindcss >= 0.3
+requests >= 2
